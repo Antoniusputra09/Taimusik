@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".putar_lagu1"
+    android:background="@drawable/background_biodata3">
+
+    <ImageView
+        android:id="@+id/kembali2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tombol_back"/>
+
+    <RelativeLayout
+        android:id="@+id/layout30"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="36dp">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/gambarartis2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/slank" />
+
+        <TextView
+            android:id="@+id/jodol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/seekBar"
+            android:layout_toRightOf="@id/gambarartis2"
+            android:layout_marginStart="25dp"
+            android:layout_marginBottom="15dp"
+            android:text="Ku Tak Bisa"
+            android:textSize="30sp" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/seekBar"
+            android:layout_toRightOf="@id/gambarartis2"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="25dp">
+
+            <ImageView
+                android:id="@+id/tombolpaused"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/play_icon"
+                tools:ignore="VectorDrawableCompat" />
+
+            <ImageView
+                android:id="@+id/tombolnext"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_toRightOf="@id/tombolpaused"
+                app:srcCompat="@drawable/percepat"
+                tools:ignore="VectorDrawableCompat" />
+
+            <ImageView
+                android:id="@+id/tombolprevious"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_toRightOf="@id/tombolnext"
+                app:srcCompat="@drawable/perlambat"
+                tools:ignore="VectorDrawableCompat" />
+
+
+
+        </RelativeLayout>
+
+
+
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="157dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/gambarartis2"
+            android:layout_marginStart="25dp"
+            android:layout_centerVertical="true" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layout30">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            app:cardBackgroundColor="#85464645"
+            android:layout_height="wrap_content">
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <TextView
+                    android:id="@+id/lirik"
+                    android:inputType="text|textMultiLine"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:textAlignment="center"
+                    android:text="Intro : C ...\n
+
+
+C                      Em\n
+Pernah berpikir tuk pergi\n
+F                        C          G\n
+dan terlintas tinggalkan kau sendiri\n
+C                   Em\n
+Sempat ingin sudahi sampai di sini\n
+F                C         G\n
+coba lari dari kenyataan tapi ...\n
+
+         Dm       F  C       G\n
+Ku tak bisa ... jauh 2x dari mu\n
+
+C              Em\n
+Lalu mau apa lagi\n
+F                   C            G\n
+kalo kita sudah gak saling mengerti\n
+C                     Em\n
+sampai kapan bertahan seperti ini\n
+F                  C       G\n
+dua hati bercampur emosi tapi ...\n
+
+musik : Am Em Am Em A# Gm B7\n
+
+Am                Em\n
+Sabar 2x aku coba sabar\n
+Am                       Em\n
+Sadar 2x seharusnya kita sadar\n
+         F                 Fm\n
+Kau dan aku tercipta tak boleh berpisah ...\n
+
+Read more at: https://kordindonesia.com/chord/gitar/2941/slank/ku-tak-bisa © kordindonesia.com"
+
+
+                    android:textSize="16sp"/>
+            </ScrollView>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+
+</RelativeLayout>

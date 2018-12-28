@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "739680322313",
+    "firebase_url": "https://i-musik-9cd6e.firebaseio.com",
+    "project_id": "i-musik-9cd6e",
+    "storage_bucket": "i-musik-9cd6e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739680322313:android:a76097262d4bbb13",
+        "android_client_info": {
+          "package_name": "com.example.asus.taimusik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739680322313-7i4sj2g6kjbsp8rmskr9d1rtaas2g8g4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asus.taimusik",
+            "certificate_hash": "4c8da73c00365f3d04bc57be539bd3e7ac4e952c"
+          }
+        },
+        {
+          "client_id": "739680322313-e2q448oelii0btkln16t7g1a94e9d9j5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9HC4KSme8KfCN5xvs0qMfsJg7Af7zMVw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739680322313-e2q448oelii0btkln16t7g1a94e9d9j5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tambah_band">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/card4">
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#aaed8f44"
+            android:text="Tambah Baru"
+            android:textSize="32dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"/>
+    </android.support.v7.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/atas4"
+        android:layout_below="@id/card4"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:id="@+id/ambil_gambar1"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:src="@drawable/add_band"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/text7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/atas4"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="70dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/edit_txt_band"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Band"
+            android:textAlignment="center" />
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/edit_txt_band"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp">
+
+        </Spinner>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_below="@id/text7">
+
+        <Button
+            android:id="@+id/btn_band_kirim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kirim" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

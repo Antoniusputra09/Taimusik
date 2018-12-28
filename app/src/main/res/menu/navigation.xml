@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation1"
+        android:icon="@drawable/person1"
+        android:title="Akun"/>
+
+    <item android:title="Home"
+        android:id="@+id/navigation2"
+        android:icon="@drawable/home">
+        <requestFocus/>
+
+        </item>
+
+    <item
+        android:id="@+id/navigation3"
+        android:icon="@drawable/guitar"
+        android:title="Chord"/>
+
+</menu>

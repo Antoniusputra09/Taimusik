@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chord"
+    android:background="@drawable/background_biodata3">
+
+    <!-- TODO: Update blank fragment layout -->
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/atas5"
+           android:background="@color/oranye">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Belajar Chord Dasar"
+                   android:textSize="36dp"
+                   android:fontFamily="sans-serif-medium"
+                   android:gravity="center_horizontal"
+                   android:layout_centerHorizontal="true"
+                   android:textColor="#ffff"/>
+
+
+       </RelativeLayout>
+
+       <android.support.v7.widget.RecyclerView
+           android:id="@+id/rcychord"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_below="@id/atas5"
+           android:layout_marginTop="17dp">
+
+       </android.support.v7.widget.RecyclerView>
+
+
+
+   </RelativeLayout>
+
+</FrameLayout>

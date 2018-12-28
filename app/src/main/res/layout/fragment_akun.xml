@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".akun">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ScrollView>
+
+        <ImageView
+            android:id="@+id/gambarpic"
+            android:layout_width="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_height="250dp" />
+        <ImageView
+            android:id="@+id/gambarpic2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="#a8000000" />
+
+
+        <RelativeLayout
+            android:id="@+id/linier"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/pp1"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/slank" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/linier1"
+            android:layout_below="@id/gambarpic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/linier2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/namaasli_tampil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:text="Antonius Wiranata"
+                    android:textAlignment="center"
+                    android:textColor="@color/Snow"
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linier3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/linier2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/namapenguna_tampil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="14dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Antonius Putra"
+                    android:textAlignment="center"
+                    android:textColor="@color/Snow"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linier4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linier3"
+                android:orientation="vertical"
+                android:layout_marginTop="14dp">
+
+                <TextView
+                    android:id="@+id/kota_tampil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:text="Jakarta"
+                    android:textSize="20sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@color/Snow"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linier5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/linier4"
+                android:orientation="vertical"
+                android:layout_marginTop="14dp">
+
+                <TextView
+                    android:id="@+id/tanggal_tampil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="12-01-2002"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@color/Snow"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linier6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/linier5"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/ganti_pass"
+                    android:layout_width="200dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:text="Edit Profile"
+                    android:fontFamily="sans-serif-medium"
+                    android:background="@drawable/tombol_masuk"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textColor="@color/Snow"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linier7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/linier6"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/keluar"
+                    android:layout_width="200dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:text="log out"
+                    android:fontFamily="sans-serif-medium"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    android:textColor="@color/Snow"
+                    android:background="@drawable/tombol_daftar"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

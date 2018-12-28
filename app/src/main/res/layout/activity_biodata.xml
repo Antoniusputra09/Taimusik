@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".biodata"
+    android:background="@drawable/bg9">
+
+
+
+    <RelativeLayout
+        android:id="@+id/layout15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/foto_profile"
+            android:layout_width="116dp"
+            android:layout_height="145dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/add_band"
+            tools:ignore="VectorDrawableCompat" />
+    </RelativeLayout>
+    <LinearLayout
+
+        android:id="@+id/layout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout15"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp">
+
+        <EditText
+            android:id="@+id/namaasli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Nama"
+            android:textColorHint="@color/Snow"
+            android:layout_marginTop="0dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout3"
+        android:orientation="horizontal"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp">
+
+        <EditText
+            android:id="@+id/namapenguna"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/namepengguna"
+            android:textColorHint="@color/Snow" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below ="@id/layout4"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp">
+
+        <EditText
+            android:id="@+id/tanggal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tanggal Lahir"
+            android:textStyle=""
+            android:inputType="text"
+            android:textColorHint="@color/Snow"
+            android:drawableRight="@drawable/date"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below ="@id/layout16"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp">
+
+
+
+        <EditText
+            android:id="@+id/kota"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kota tinggal"
+            android:textColorHint="@color/Snow"
+            android:drawableRight="@drawable/location"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_below="@id/layout17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/tombol_lanjut"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/tombol_masuk"
+            android:text="Lanjut"
+            android:layout_marginTop="25dp"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

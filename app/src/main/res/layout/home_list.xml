@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ci1"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/slank"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center_horizontal"
+            android:text="Nama Kategori"
+            android:textSize="20dp"
+            android:layout_below="@id/ci1"/>
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

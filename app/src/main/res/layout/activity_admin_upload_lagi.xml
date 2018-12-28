@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin_upload_lagi">
+        <RelativeLayout
+            android:id="@+id/atas6"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ambil_lagu"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="94dp"
+                    app:srcCompat="@drawable/musik"
+                    tools:ignore="VectorDrawableCompat"
+                    android:layout_marginRight="8dp"/>
+
+                <ImageView
+                    android:id="@+id/ambil_fotolagu"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/add_band"
+                    android:layout_toRightOf="@id/ambil_lagu"
+                    android:layout_marginTop="91dp"
+                    android:layout_marginLeft="8dp"/>
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+        <EditText
+            android:id="@+id/edit1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/atas6"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:hint="Judul"
+            android:textColorHint="@color/Snow"/>
+
+        <EditText
+            android:id="@+id/edit2"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@id/edit1"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:inputType="textMultiLine"
+            android:hint="Lirik"
+            android:scrollIndicators=""
+            android:textColorHint="@color/Snow"/>
+
+
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/edit2"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp">
+
+        </Spinner>
+
+        <Button
+            android:id="@+id/btn_upload_konten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kirim"
+            android:layout_below="@id/spinner2"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="50dp"/>
+
+
+</RelativeLayout>

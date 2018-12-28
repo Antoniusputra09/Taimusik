@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".setelan_pass"
+    android:background="@drawable/background_awal2">
+
+    <RelativeLayout
+        android:id="@+id/layout25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp">
+
+        <ImageView
+            android:id="@+id/icon_ganti_profile"
+            android:layout_width="236dp"
+            android:layout_height="200dp"
+            android:src="@drawable/person_add" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layout26"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout25"
+        android:layout_marginTop="15dp">
+
+        <EditText
+            android:id="@+id/email_setelan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Email"
+            android:textColorHint="@color/Snow"
+            android:inputType="textEmailAddress"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout26">
+
+        <EditText
+            android:id="@+id/password_setelan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password Lama"
+            android:textColorHint="@color/Snow"
+            android:inputType="textPassword"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout27">
+
+        <EditText
+            android:id="@+id/password_setelan_baru1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password Baru"
+            android:textColorHint="@color/Snow"
+            android:inputType="textPassword"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout28">
+
+        <EditText
+            android:id="@+id/password_setelan_baru2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password Baru lagi"
+            android:textColorHint="@color/Snow"
+            android:inputType="textPassword"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@id/layout29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+
+        <Button
+            android:id="@+id/kirim"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@drawable/tombol_masuk"
+            android:text="Kirim" />
+    </LinearLayout>
+
+</RelativeLayout>

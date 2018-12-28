@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">I Musik</string>
+    <string name="todo">TODO</string>
+    <string name="tomboldaftar1">DAFTAR</string>
+    <string name="tombolmasuk1">MASUK</string>
+    <string name="Nama">Nama</string>
+    <string name="Password">Password</string>
+    <string name="Email">Email Anda</string>
+    <string name="Password2">Masukkan password Lagi</string>
+    <string name="namepengguna">Nama Pengguna</string>
+    <string name="todo1">TODO</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
